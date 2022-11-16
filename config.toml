@@ -16,7 +16,7 @@ author = "Common Ground Electronics"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
 description = "Common Ground Electronics"
 keywords = ""
-info = ["Electronics for Everyone"]
+# info = [""]
 avatarURL = "images/logo.png"
 dateFormat = "January 2, 2006"
 since = 2022
