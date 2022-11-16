@@ -1,0 +1,7 @@
+# SPDX-FileCopyrightText: 2022 Common Ground Electronics <https://cgnd.dev>
+#
+# SPDX-License-Identifier: MIT
+
+[submodule "themes/hugo-coder"]
+	path = themes/hugo-coder
+	url = git@github.com:cdwilson/hugo-coder.git
