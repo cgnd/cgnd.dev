@@ -5,6 +5,3 @@
 [submodule "themes/hugo-coder"]
 	path = themes/hugo-coder
 	url = https://github.com/cgnd/hugo-coder.git
-[submodule "static/logo"]
-	path = static/logo
-	url = https://github.com/cgnd/logo.git

@@ -17,7 +17,8 @@ author = "Common Ground Electronics"
 description = "Common Ground Electronics"
 keywords = ""
 # info = [""]
-avatarURL = "logo/cgnd_logo_round.png"
+avatarURL = "images/cgnd_logo_round.png"
+# gravatar = "gravatar@cgnd.dev"
 dateFormat = "January 2, 2006"
 since = 2022
 # Git Commit in Footer, uncomment the line below to enable it
