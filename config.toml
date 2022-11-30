@@ -16,7 +16,7 @@ author = "Common Ground Electronics"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
 description = "Common Ground Electronics"
 keywords = ""
-info = ["Coming soon..."]
+# info = ["Coming soon..."]
 avatarURL = "images/cge_logo_square_1200x1200.png"
 # gravatar = "gravatar@cgnd.dev"
 dateFormat = "January 2, 2006"
