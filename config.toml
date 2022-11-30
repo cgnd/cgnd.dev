@@ -16,7 +16,7 @@ author = "Common Ground Electronics"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
 description = "Common Ground Electronics"
 keywords = ""
-# info = [""]
+info = ["Coming soon..."]
 avatarURL = "images/cge_logo_square_1200x1200.png"
 # gravatar = "gravatar@cgnd.dev"
 dateFormat = "January 2, 2006"
@@ -87,11 +87,11 @@ icon = "fa fa-2x fa-twitter"
 weight = 2
 url = "https://twitter.com/cgndelectronics"
 
-# [[params.social]]
-# name = "LinkedIn"
-# icon = "fa fa-2x fa-linkedin"
-# weight = 3
-# url = "https://www.linkedin.com/company/fixme/"
+[[params.social]]
+name = "LinkedIn"
+icon = "fa fa-2x fa-linkedin"
+weight = 3
+url = "https://www.linkedin.com/company/common-ground-electronics/"
 
 [[params.social]]
 name = "RSS"
