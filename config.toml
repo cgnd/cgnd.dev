@@ -19,6 +19,7 @@ keywords = ""
 # info = ["Coming soon..."]
 favicon_16 = "images/favicon-16x16.png"
 favicon_32 = "images/favicon-32x32.png"
+touchIcon = "images/apple-touch-icon.png"
 avatarURL = "images/cgnd_logo_square_1200x1200.png"
 # gravatar = "gravatar@cgnd.dev"
 dateFormat = "January 2, 2006"
