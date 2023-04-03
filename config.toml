@@ -72,9 +72,6 @@ series = "series"
 tag = "tags"
 author = "authors"
 
-[permalinks]
-  posts = '/:sections[1:]/:slug/'
-
 [[params.social]]
 name = "Github"
 icon = "fa fa-2x fa-github"
@@ -101,24 +98,29 @@ url = "https://cgnd.dev/index.xml"
 rel = "alternate"
 type = "application/rss+xml"
 
-# [[menu.main]]
-# name = "About"
-# weight = 1
-# url = "about/"
+[[menu.main]]
+name = "About"
+weight = 1
+url = "about/"
 
 # [[menu.main]]
-# name = "Articles"
+# name = "Services"
 # weight = 2
-# url = "articles/"
+# url = "services/"
 
 # [[menu.main]]
-# name = "Projects"
+# name = "Portfolio"
 # weight = 3
-# url = "projects/"
+# url = "portfolio/"
+
+# [[menu.main]]
+# name = "Blog"
+# weight = 4
+# url = "posts/"
 
 [[menu.main]]
 name = "Contact"
-weight = 4
+weight = 5
 url = "contact/"
 
 [markup]
