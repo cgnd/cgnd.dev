@@ -1,5 +1,5 @@
 ---
-title: Portfolio
-slug: portfolio
+title: Services
+slug: services
 typora-copy-images-to: ./images
 ---
