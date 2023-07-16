@@ -123,6 +123,19 @@ name = "Contact"
 weight = 5
 url = "contact/"
 
+[params.giscus]
+repo = "cgnd/cgnd.dev"
+repoID = "R_kgDOIcblIw"
+category = "Blog Posts"
+categoryID = "DIC_kwDOIcblI84CX7an"
+mapping = "og:title"
+reactionsEnabled = "1"
+emitMetadata = "0"
+inputPosition = "bottom"
+theme = "preferred_color_scheme"
+lang = "en"
+loading = "lazy"
+
 [markup]
   [markup.highlight]
     style = 'monokai'
