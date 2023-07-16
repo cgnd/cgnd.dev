@@ -52,13 +52,13 @@ pre-commit install
 
 That's it! Once `pre-commit` is installed, the code quality checks will run automatically whenever a developer runs `git commit` in their local development environment. No more having to manually run checks before committing!
 
-Second, if you're already using west manifest files to manage dependencies for your project's source code, you will find `.pre-commit-config.yaml` to be familiar in concept. Just as `west.yml` can be used to lock the specific revision for each source code dependency, the `.pre-commit-config.yaml` file is used to lock the specific revision for each code quality check you wan to run. Just check this file into the git repo for your project, and all developers on your team will run the exact same set of checks.
+Second, if you're already using west manifest files to manage dependencies for your project's source code, you will find `.pre-commit-config.yaml` to be familiar in concept. Just as `west.yml` can be used to lock the specific revision for each source code dependency, the `.pre-commit-config.yaml` file is used to lock the specific revision for each code quality check you want to run. Just check this file into the git repo for your project, and all developers on your team will run the exact same set of checks.
 
 ## What checks should I run?
 
 The Zephyr project [Coding Guidelines](https://docs.zephyrproject.org/latest/contribute/guidelines.html) recommend using `clang-format` with the provided [`.clang-format`](https://github.com/zephyrproject-rtos/zephyr/blob/main/.clang-format) config file to format code being contributed to the upstream Zephyr RTOS repository. In addition, coding style in the project is enforced using a modified version of the Linux kernel  `checkpatch` tool with the provided [`.checkpatch.conf`](https://github.com/zephyrproject-rtos/zephyr/blob/main/.checkpatch.conf) file. This is a good place for us to start.
 
-The remainder of this article is going to describe how to configure `pre-commit` to automatically run `clang-format` and Zephyr's`checkpatch` before each `git commit`. This will flag (and sometimes automatically fix!) any code style issues present in our project code before we commit any changes.
+The remainder of this article is going to describe how to configure `pre-commit` to automatically run `clang-format` and Zephyr's `checkpatch` before each `git commit`. This will flag (and sometimes automatically fix!) any code style issues present in our project code before we commit any changes.
 
 If you don't already have existing code style guidelines required by your team or project, I would recommend simply copying [`.clang-format`](https://github.com/zephyrproject-rtos/zephyr/blob/main/.clang-format) and [`.checkpatch.conf`](https://github.com/zephyrproject-rtos/zephyr/blob/main/.checkpatch.conf) from the Zephyr project as a starting point. For example, if your project follows the recommended layout in the Zephyr [example-application](https://github.com/cgnd/example-application), you can copy these files into your application as follows:
 
@@ -369,7 +369,7 @@ Make sure to set the `Clang_format_style` to `file` so that it loads your code s
 
 ![vscode_clang_format_settings](images/vscode_clang_format_settings.png)
 
-If you enable "Format on Save" and set "Format on Save Mode" to `modificationsIfAvailable`, the editor will attemp to run `clang-format` only on the parts of the file which have been modified (requires source control).
+If you enable "Format on Save" and set "Format on Save Mode" to `modificationsIfAvailable`, the editor will attempt to run `clang-format` only on the parts of the file which have been modified (requires source control).
 
 ![vscode_format_settings](images/vscode_format_settings.png)
 
