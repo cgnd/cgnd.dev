@@ -3,7 +3,7 @@ title: Enforce Zephyr code quality with pre-commit
 authors:
 - Chris Wilson
 date: "2023-07-16"
-draft: true
+draft: false
 slug: enforce-zephyr-code-quality-pre-commit
 tags:
 - Zephyr
@@ -33,11 +33,11 @@ The reality is that managing git hooks manually is painful and it's hard to enfo
 
 How do you make sure that everyone on your team is running the same set of checks?
 
-## A case for using `pre-commit` in Zephyr projects
+## A case for using `pre-commit` in Zephyr projects
 
 Fortunately, there is a fantastic tool called [`pre-commit`](https://pre-commit.com/) that can automatically install, manage, and run `git commit` hooks, without requiring individual developers to manage these hooks manually. By shipping a single `.pre-commit-config.yaml` config with your embedded project, you can make it trivially easy for individual developers to run code quality checks and automatically enforce code style rules in their development environment. *And this all happens before the code is checked into git*. This can help ensure that code submitted for peer review is consistently formatted and matches the agreed-upon code style for the project, allowing discussions to focus on the actual content of the changes without devolving into code style arguments.
 
-In addition to checking for code style issues such as formatting and linting, `pre-commit` can be configured to run other types of checks (line-endings & whitespace, YAML file syntax issues, common code security issues, etc). There is a growing set of custom community-provided hooks in addition to the [ones provided out-of-the-box](https://github.com/pre-commit/pre-commit-hooks) by the developers.
+In addition to checking for code style issues such as formatting and linting, `pre-commit` can be configured to run other types of checks (line-endings & whitespace, YAML file syntax issues, common code security issues, etc). There is a growing set of custom community-provided hooks in addition to the [ones provided out-of-the-box](https://github.com/pre-commit/pre-commit-hooks) by the developers.
 
 For a great introduction to using `pre-commit` for embedded development in general, Noah Pendleton published an article on the Interrupt blog about how they [Automatically format and lint code with pre-commit](https://interrupt.memfault.com/blog/pre-commit) at Memfault.
 
@@ -50,9 +50,9 @@ pip install pre-commit
 pre-commit install
 ```
 
-That's it! Once `pre-commit` is installed, the code quality checks will run automatically whenever a developer runs `git commit` in their local development environment. No more having to manually run checks before committing!
+That's it! Once `pre-commit` is installed, the code quality checks will run automatically whenever a developer runs `git commit` in their local development environment. No more having to manually run checks before committing!
 
-Second, if you're already using west manifest files to manage dependencies for your project's source code, you will find `.pre-commit-config.yaml` to be familiar in concept. Just as `west.yml` can be used to lock the specific revision for each source code dependency, the `.pre-commit-config.yaml` file is used to lock the specific revision for each code quality check you wan to run. Just check this file into the git repo for your project, and all developers on your team will run the exact same set of checks.
+Second, if you're already using west manifest files to manage dependencies for your project's source code, you will find `.pre-commit-config.yaml` to be familiar in concept. Just as `west.yml` can be used to lock the specific revision for each source code dependency, the `.pre-commit-config.yaml` file is used to lock the specific revision for each code quality check you wan to run. Just check this file into the git repo for your project, and all developers on your team will run the exact same set of checks.
 
 ## What checks should I run?
 
@@ -60,7 +60,7 @@ The Zephyr project [Coding Guidelines](https://docs.zephyrproject.org/latest/con
 
 The remainder of this article is going to describe how to configure `pre-commit` to automatically run `clang-format` and Zephyr's`checkpatch` before each `git commit`. This will flag (and sometimes automatically fix!) any code style issues present in our project code before we commit any changes.
 
-If you don't already have existing code style guidelines required by your team or project, I would recommend simply copying [`.clang-format`](https://github.com/zephyrproject-rtos/zephyr/blob/main/.clang-format) and [`.checkpatch.conf`](https://github.com/zephyrproject-rtos/zephyr/blob/main/.checkpatch.conf) from the Zephyr project as a starting point. For example, if your project follows the recommended layout in the Zephyr [example-application](https://github.com/cgnd/example-application), you can copy these files into your application as follows:
+If you don't already have existing code style guidelines required by your team or project, I would recommend simply copying [`.clang-format`](https://github.com/zephyrproject-rtos/zephyr/blob/main/.clang-format) and [`.checkpatch.conf`](https://github.com/zephyrproject-rtos/zephyr/blob/main/.checkpatch.conf) from the Zephyr project as a starting point. For example, if your project follows the recommended layout in the Zephyr [example-application](https://github.com/cgnd/example-application), you can copy these files into your application as follows:
 
 ```sh
 cd example-application-workspace/
@@ -132,7 +132,7 @@ Now we're ready to install and run pre-commit.
 
 ## How to install and run pre-commit
 
-As mentioned earlier, it's simple to install the `pre-commit` tool:
+As mentioned earlier, it's simple to install the `pre-commit` tool:
 
 ```sh
 pip install pre-commit
@@ -289,11 +289,11 @@ Run Zephyr's checkpatch.pl...............................................Passed
 
 ## Tips & Tricks
 
-#### What to do when `clang-format` and `checkpatch` disagree
+#### What to do when `clang-format` and `checkpatch` disagree
 
 You may run into cases where Zephyr's `.clang-format` and `.checkpatch.conf` disagree on code style (in the Zephyr project, `clang-format` is [not intended to be a one-stop solution to all the code style issues](https://github.com/zephyrproject-rtos/zephyr/issues/52712#issuecomment-1516541794)).
 
-For example, here's how `clang-format` will format the following code using Zephyr's `.clang-format`:
+For example, here's how `clang-format` will format the following code using Zephyr's `.clang-format`:
 
 ```C
 static const struct divider_config divider_config = {
@@ -307,7 +307,7 @@ static const struct divider_config divider_config = {
 };
 ```
 
-If we try to commit this, `checkpatch` will fail because it thinks that the `{` should be on the same line as `.io_channel =`:
+If we try to commit this, `checkpatch` will fail because it thinks that the `{` should be on the same line as `.io_channel =`:
 
 ```plaintext
 Run Zephyr's checkpatch.pl...............................................Failed
@@ -337,7 +337,7 @@ static const struct divider_config divider_config = {
 };
 ```
 
-Now, if you try to commit this, both `clang-format` and `checkpatch` checks will pass.
+Now, if you try to commit this, both `clang-format` and `checkpatch` checks will pass.
 
 #### How to skip running `pre-commit` hooks if necessary
 
@@ -365,17 +365,17 @@ Follow the recommended setup instructions at https://pre-commit.com/#pre-commit-
 
 If you use VS Code, the [C/C++ extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) from Microsoft enables running clang-format within the editor.
 
-Make sure to set the `Clang_format_style` to `file` so that it loads your code style preferences from the `.clang-format` file in your project.
+Make sure to set the `Clang_format_style` to `file` so that it loads your code style preferences from the `.clang-format` file in your project.
 
 ![vscode_clang_format_settings](images/vscode_clang_format_settings.png)
 
-If you enable "Format on Save" and set "Format on Save Mode" to `modificationsIfAvailable`, the editor will attemp to run `clang-format` only on the parts of the file which have been modified (requires source control).
+If you enable "Format on Save" and set "Format on Save Mode" to `modificationsIfAvailable`, the editor will attemp to run `clang-format` only on the parts of the file which have been modified (requires source control).
 
 ![vscode_format_settings](images/vscode_format_settings.png)
 
 ## Example Repo
 
-If you would like to check out an example Zephyr application with a `pre-commit` config, I've added a [pre-commit branch](https://github.com/cgnd/example-application/tree/pre-commit) to my fork of the Zephyr example-application repo. Here's a direct link to the [`.pre-commit-config.yaml`](https://github.com/cgnd/example-application/blob/pre-commit/.pre-commit-config.yaml) file.
+If you would like to check out an example Zephyr application with a `pre-commit` config, I've added a [pre-commit branch](https://github.com/cgnd/example-application/tree/pre-commit) to my fork of the Zephyr example-application repo. Here's a direct link to the [`.pre-commit-config.yaml`](https://github.com/cgnd/example-application/blob/pre-commit/.pre-commit-config.yaml) file.
 
 ## Feedback
 
