@@ -1,14 +1,9 @@
 ---
-title: About
-slug: about
+title: Chris Wilson
 typora-copy-images-to: ./images
 ---
 
-Common Ground Electronics is a boutique embedded systems engineering services firm.
 
-We specialize in early-stage product development with an emphasis on design for manufacturability.
-
-# Chris Wilson
 
 ![chris_200](images/chris_200.png)
 

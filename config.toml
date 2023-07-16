@@ -113,10 +113,10 @@ url = "about/"
 # weight = 3
 # url = "portfolio/"
 
-# [[menu.main]]
-# name = "Blog"
-# weight = 4
-# url = "posts/"
+[[menu.main]]
+name = "Blog"
+weight = 4
+url = "posts/"
 
 [[menu.main]]
 name = "Contact"
