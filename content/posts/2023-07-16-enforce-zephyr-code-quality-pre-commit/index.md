@@ -19,7 +19,7 @@ In this article, I'll describe how embedded firmware developers can leverage [`p
 
 To prevent back-and-forth discussions over code style and improve code quality, many embedded development teams have adopted a set of "coding style" guidelines. However, if these style guidelines are simply written down in a README or some other project documentation, it's inevitable that those guidelines will be ignored.
 
-Phillip Johnston from [Embedded Artistry](https://embeddedartistry.com/) wrote a excellent article [Creating and Enforcing a Code Formatting Standard with clang-format](https://embeddedartistry.com/blog/2017/11/02/a-strategy-for-enforcing-formatting-with-your-build-server/) with this quote from MongoDB that bears repeating here:
+Phillip Johnston from [Embedded Artistry](https://embeddedartistry.com/) wrote an excellent article [Creating and Enforcing a Code Formatting Standard with clang-format](https://embeddedartistry.com/blog/2017/11/02/a-strategy-for-enforcing-formatting-with-your-build-server/) with this quote from MongoDB that bears repeating here:
 
 > **A formatting process which is both manual and insufficient is doomed to be abandoned.**
 
@@ -100,7 +100,7 @@ example-application-workspace/example-application/.pre-commit-config.yaml
 
 - `repo` key that contains the URL of the git repository
 - `rev` key that contains the specific revision of the hook
-- `hooks` key that describes the hook to run (repos can contain multiple hooks)
+- `hooks` key that describes the hooks to run (repos can contain multiple hooks)
 
 Next, we'll add two hooks:
 
@@ -352,7 +352,7 @@ git commit --no-verify -m "foo"
 To skip one or more hooks, you can set the `SKIP` environment variable to a comma separated list of hook ids:
 
 ```sh
-SKIP=flake8 git commit -m "foo"
+SKIP=clang-format git commit -m "foo"
 ```
 
 #### Automatically install `pre-commit` hooks when a repo is cloned
@@ -369,7 +369,7 @@ Make sure to set the `Clang_format_style` to `file` so that it loads your code s
 
 ![vscode_clang_format_settings](images/vscode_clang_format_settings.png)
 
-If you enable "Format on Save" and set "Format on Save Mode" to `modificationsIfAvailable`, the editor will attempt to run `clang-format` only on the parts of the file which have been modified (requires source control).
+If you enable "Format on Save" and set "Format on Save Mode" to `modificationsIfAvailable`, the editor will attempt to run `clang-format` on save, but only on the parts of the file which have been modified (requires source control).
 
 ![vscode_format_settings](images/vscode_format_settings.png)
 
