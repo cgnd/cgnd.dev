@@ -19,7 +19,7 @@ In this article, I'll describe how embedded firmware developers can leverage [`p
 
 To prevent back-and-forth discussions over code style and improve code quality, many embedded development teams have adopted a set of "coding style" guidelines. However, if these style guidelines are simply written down in a README or some other project documentation, it's inevitable that those guidelines will be ignored.
 
-Phillip Johnston from [Embedded Artistry](https://embeddedartistry.com/) wrote an excellent article [Creating and Enforcing a Code Formatting Standard with clang-format](https://embeddedartistry.com/blog/2017/11/02/a-strategy-for-enforcing-formatting-with-your-build-server/) with this quote from MongoDB that bears repeating here:
+Phillip Johnston from [Embedded Artistry](https://embeddedartistry.com/) wrote an excellent article [Creating and Enforcing a Code Formatting Standard with clang-format](https://embeddedartistry.com/blog/2017/10/23/creating-and-enforcing-a-code-formatting-standard-with-clang-format/) with this quote from MongoDB that bears repeating here:
 
 > **A formatting process which is both manual and insufficient is doomed to be abandoned.**
 
