@@ -60,7 +60,7 @@ The Zephyr project [Coding Guidelines](https://docs.zephyrproject.org/latest/con
 
 The remainder of this article is going to describe how to configure `pre-commit` to automatically run `clang-format` and Zephyr's `checkpatch` before each `git commit`. This will flag (and sometimes automatically fix!) any code style issues present in our project code before we commit any changes.
 
-If you don't already have existing code style guidelines required by your team or project, I would recommend simply copying [`.clang-format`](https://github.com/zephyrproject-rtos/zephyr/blob/main/.clang-format) and [`.checkpatch.conf`](https://github.com/zephyrproject-rtos/zephyr/blob/main/.checkpatch.conf) from the Zephyr project as a starting point. For example, if your project follows the recommended layout in the Zephyr [example-application](https://github.com/cgnd/example-application), you can copy these files into your application as follows:
+If you don't already have existing code style guidelines required by your team or project, I would recommend simply copying [`.clang-format`](https://github.com/zephyrproject-rtos/zephyr/blob/main/.clang-format) and [`.checkpatch.conf`](https://github.com/zephyrproject-rtos/zephyr/blob/main/.checkpatch.conf) from the Zephyr project as a starting point. For example, if your project follows the recommended layout in the Zephyr [example-application](https://github.com/zephyrproject-rtos/example-application), you can copy these files into your application as follows:
 
 ```sh
 cd example-application-workspace/
@@ -88,7 +88,7 @@ Check these config files into the root of your project's git repository.
 
 ## How to configure `pre-commit` in a Zephyr project
 
-Now that we've got the tool config files in our project repo, we can create a `pre-commit` config to run these checks. For the remainder of this article, I'm going to assume your project follows the recommended layout in the Zephyr [example-application](https://github.com/cgnd/example-application), but it should be simple to adapt this to your project layout.
+Now that we've got the tool config files in our project repo, we can create a `pre-commit` config to run these checks. For the remainder of this article, I'm going to assume your project follows the recommended layout in the Zephyr [example-application](https://github.com/zephyrproject-rtos/example-application), but it should be simple to adapt this to your project layout.
 
 First, we need to add an empty `pre-commit` config file to our project repo:
 
@@ -375,7 +375,7 @@ If you enable "Format on Save" and set "Format on Save Mode" to `modificationsIf
 
 ## Example Repo
 
-If you would like to check out an example Zephyr application with a `pre-commit` config, I've added a [pre-commit branch](https://github.com/cgnd/example-application/tree/pre-commit) to my fork of the Zephyr example-application repo. Here's a direct link to the [`.pre-commit-config.yaml`](https://github.com/cgnd/example-application/blob/pre-commit/.pre-commit-config.yaml) file.
+If you would like to check out an example Zephyr application with a `pre-commit` config, I've added a [pre-commit branch](https://github.com/cgnd/example-application/tree/pre-commit) to my fork of the Zephyr `example-application` repo. Here's a direct link to the [`.pre-commit-config.yaml`](https://github.com/cgnd/example-application/blob/pre-commit/.pre-commit-config.yaml) file.
 
 ## Feedback
 
