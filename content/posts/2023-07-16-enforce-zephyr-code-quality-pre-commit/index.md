@@ -13,6 +13,8 @@ disableComments: false
 typora-copy-images-to: ./images
 ---
 
+![kites_on_hooks](images/kites_on_hooks.png)
+
 In this article, I'll describe how embedded firmware developers can leverage [`pre-commit`](https://pre-commit.com/) to automate and enforce code quality checks in their Zephyr RTOS embedded firmware projects.
 
 {{< notice note >}}
