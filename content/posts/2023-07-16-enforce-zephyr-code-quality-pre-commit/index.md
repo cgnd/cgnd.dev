@@ -35,7 +35,7 @@ Phillip Johnston from [Embedded Artistry](https://embeddedartistry.com/) wrote a
 
 > **A formatting process which is both manual and insufficient is doomed to be abandoned.**
 
-Phillip's article is a fantastic deep-dive on how to use the [`clang-format`](https://clang.llvm.org/docs/ClangFormat.html) tool to automatically format code to comply with code formatting guidelines encoded in a `.clang-format` config file. In a [follow up article](https://embeddedartistry.com/blog/2017/11/02/a-strategy-for-enforcing-formatting-with-your-build-server/), he describes how to enforce these rules on a build server in a CI environment to ensure that all changes are checked for formatting before they are merged into the main branch. 
+Phillip's article is a fantastic deep-dive on how to use the [`clang-format`](https://clang.llvm.org/docs/ClangFormat.html) tool to automatically format code to comply with code formatting guidelines encoded in a `.clang-format` config file. In a [follow up article](https://embeddedartistry.com/blog/2017/11/02/a-strategy-for-enforcing-formatting-with-your-build-server/), he describes how to enforce these rules on a build server in a CI environment to ensure that all changes are checked for formatting before they are merged into the main branch.
 
 He also mentions that it's possible to enforce formatting checks in a local development environment using [git hooks](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks), but points out the following caveat:
 
@@ -174,14 +174,14 @@ To show how this works, let's make some changes in the project's `main.c` to vio
 ```diff
  #include <zephyr/logging/log.h>
  LOG_MODULE_REGISTER(main, CONFIG_APP_LOG_LEVEL);
- 
+
 -int main(void)
 -{
 -       int ret;
 +int main(void) {
 +       int new;
         const struct device *sensor;
- 
+
         printk("Zephyr Example Application %s\n", APP_VERSION_STRING);
 ```
 

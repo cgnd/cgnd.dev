@@ -1,0 +1,12 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: cgnd.dev
+Upstream-Contact: Common Ground Electronics <https://cgnd.dev>
+Source: https://github.com/cgnd/cgnd.dev
+
+Files: *.md *.png *.jpg *.jpeg *.ico
+Copyright: 2023 Common Ground Electronics <https://cgnd.dev>
+License: CC-BY-4.0
+
+Files: static/site.webmanifest
+Copyright: 2023 Common Ground Electronics <https://cgnd.dev>
+License: MIT
