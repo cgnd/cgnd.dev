@@ -22,7 +22,7 @@ In this article, I'll describe how embedded firmware developers can leverage [`p
 
 This article is mainly focused on automating code quality tools in the context of a Zephyr *application* where the assumption is that everybody on the team has agreed upon using these tools (and ideally they are also enforced in CI).
 
-Currently, `clang-format` formatting does not 100% align with the Zephyr project coding style, so you should be mindful when using `clang-format` on code that you're planning on upstreaming to the main Zephyr project.
+Currently, `clang-format` formatting does not 100% align with the Zephyr project coding style, so you should be mindful when using `clang-format` on code that you're planning on upstreaming to the main Zephyr project.
 
 {{< /notice >}}
 
