@@ -10,6 +10,7 @@ tags:
 - pre-commit
 - code quality
 - code style
+- VS Code
 disableComments: false
 typora-copy-images-to: ./images
 ---
