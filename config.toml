@@ -13,7 +13,7 @@ enableGitInfo = true
 
 [params]
 author = "Common Ground Electronics"
-# license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
+license = '<a rel="license noopener noreferrer" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>'
 description = "Common Ground Electronics"
 keywords = ""
 # info = ["Coming soon..."]
@@ -57,8 +57,8 @@ customJS = []
 #   "https://cdn.jsdelivr.net/"
 # ]
 # scriptsrc = [
-#   "'self'", 
-#   "'unsafe-inline'", 
+#   "'self'",
+#   "'unsafe-inline'",
 #   "https://www.google-analytics.com",
 #   "https://cdn.jsdelivr.net/"
 # ]
