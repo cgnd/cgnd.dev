@@ -1,6 +1,6 @@
 # SPDX-FileCopyrightText: 2022 Common Ground Electronics <https://cgnd.dev>
 #
-# SPDX-License-Identifier: MIT
+# SPDX-License-Identifier: MIT or Apache-2.0
 
 baseURL = "https://cgnd.dev"
 title = "cgnd.dev"

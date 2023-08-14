@@ -14,3 +14,5 @@ Run the following for detailed copyright & license information on individual fil
 pip install reuse
 reuse spdx
 ```
+
+All code (including code embedded in blog posts) is dual-licensed under either the [MIT](https://opensource.org/license/mit/) or the [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0) license.

@@ -1,6 +1,6 @@
 # SPDX-FileCopyrightText: 2022 Common Ground Electronics <https://cgnd.dev>
 #
-# SPDX-License-Identifier: MIT
+# SPDX-License-Identifier: MIT or Apache-2.0
 
 [context.production.environment]
   HUGO_VERSION = "0.105.0"
