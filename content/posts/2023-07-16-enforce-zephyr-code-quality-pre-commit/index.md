@@ -22,7 +22,7 @@ In this article, I'll describe how embedded firmware developers can leverage [`p
 
 An earlier revision of this article recommended running `clang-format` as a pre-commit hook. While this is still possible, there are some downsides to running `clang-format` automatically via `pre-commit` (for example, `clang-format` formatting [does not 100% align](https://github.com/zephyrproject-rtos/zephyr/issues/52712#issuecomment-1516541794) with the Zephyr project coding style and needs some manual fixing).
 
-I have updated this article to focus on using `pre-commit` to automatically run the Zephyr `checkpatch.pl` script as recommended by the [Zephyr project coding style](https://docs.zephyrproject.org/latest/contribute/guidelines.html#coding-style).
+I have updated this article to focus on using `pre-commit` to automatically run the Zephyr `checkpatch.pl` script as recommended by the [Zephyr project coding style](https://docs.zephyrproject.org/latest/contribute/guidelines.html#coding-style). If you're interested in setting up `clang-format` as a `pre-commit` hook, check out [this article](https://interrupt.memfault.com/blog/pre-commit#clang-format) from the Interrupt blog.
 
 {{< /notice >}}
 
@@ -157,7 +157,7 @@ source example-application-workspace/zephyr/zephyr-env.sh
 
 {{< /notice >}}
 
-The `zephyr-checkpatch-diff` hook we added will run checks on any staged changes that we're trying to commit (i.e. it will only check the output of `git diff --cached` and does NOT check entire files).
+The `zephyr-checkpatch-diff` hook we added will run checks on any staged changes that we're trying to commit (i.e. it will only check the output of `git diff --cached` and does NOT check entire files).
 
 To show how this works, let's make some changes in the project's `main.c` to violate Zephyr's coding style:
 
