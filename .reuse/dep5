@@ -4,9 +4,9 @@ Upstream-Contact: Common Ground Electronics <https://cgnd.dev>
 Source: https://github.com/cgnd/cgnd.dev
 
 Files: *.md *.png *.jpg *.jpeg *.ico
-Copyright: 2023 Common Ground Electronics <https://cgnd.dev>
+Copyright: Common Ground Electronics <https://cgnd.dev>
 License: CC-BY-4.0
 
 Files: static/site.webmanifest
-Copyright: 2023 Common Ground Electronics <https://cgnd.dev>
+Copyright: Common Ground Electronics <https://cgnd.dev>
 License: MIT or Apache-2.0
