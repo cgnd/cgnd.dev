@@ -6,27 +6,6 @@ Common Ground Electronics Website
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4f1dafc4-19c4-4054-b0ea-ccb5b6d71110/deploy-status)](https://app.netlify.com/sites/cgnd-dev/deploys)
 
-## Copyright & License Information
+## Licenses
 
-Code and content is copyright © Common Ground Electronics and individual contributors.
-
-Code, including source files and code samples (if any in the content), is dual-licensed under either the [MIT](https://opensource.org/license/mit/) or the [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0) license. This means you can use the code in your own projects under either license of your choosing. When you contribute code to this repository, your contribution shall be dual licensed as above, without any additional terms or conditions.
-
-Content, including documentation, is licensed under the [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) license, which gives you permission to use the content for almost any purpose (but does not grant you any trademark permissions), so long as you note the license and give credit.
-
-Common Ground Electronics logos must not be used to represent you or your projects, products, or company. No adaptation or use of any kind is allowed without the express written permission of Common Ground Electronics.
-
-## SPDX & REUSE Compliance
-
- [![REUSE status](https://api.reuse.software/badge/github.com/cgnd/cgnd.dev)](https://api.reuse.software/info/github.com/cgnd/cgnd.dev)
-
-This repository is compliant with version 3.0 of the [REUSE Specification](https://reuse.software/spec/).
-
-License files are contained in the [LICENSES/](LICENSES/) directory and additional license & copyright information can be found in [.reuse/dep5](.reuse/dep5).
-
-Run the following commands for detailed copyright & license information on individual files:
-
-```sh
-pip install reuse
-reuse spdx
-```
+See the [LICENSE](LICENSE.md) file for copyright & license information.
