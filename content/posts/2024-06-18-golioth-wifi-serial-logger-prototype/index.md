@@ -13,6 +13,8 @@ disableComments: false
 typora-copy-images-to: ./images
 ---
 
+![golioth-wifi-serial-logger](images/golioth-wifi-serial-logger.png)
+
 In this post, I'll show how I built a cloud-connected WiFi serial logger proof-of-concept in a couple hours (and for less than $10) by leveraging [Zephyr](https://www.zephyrproject.org/) and [Golioth](https://golioth.io/).
 
 ## Requirements
@@ -21,14 +23,7 @@ A couple days ago, one of the folks in the consulting forum on https://forum.con
 
 Here's the basic idea:
 
-```
-┌──────────┐             ┌──────────┐             ┌───────────┐
-│          │             │          │             │           │
-│  Target  │   UART TX   │  Serial  │   Network   │   Cloud   │
-│  Device  │────────────▶│  Logger  │◀ ─ ─ ─ ─ ─ ▶│  Service  │
-│          │             │          │             │           │
-└──────────┘             └──────────┘             └───────────┘
-```
+![cloud-serial-logger](images/cloud-serial-logger.png)
 
 The requirements mentioned were:
 
@@ -54,25 +49,7 @@ I had an [ESP32-C3-DevKitM-1](https://docs.espressif.com/projects/esp-idf/en/sta
 
 To simulate a "target device", I connected a [TTL-232R-RPI](https://ftdichip.com/products/ttl-232r-rpi/) USB-to-UART cable to my laptop, but this could be any device that sends log messages out of a serial port.
 
-```
-┌─────────────┐  
-│             │  
-│   Macbook   │  
-│     Pro     │─────────USB──────────┐  
-│             │                      │  
-└─────────────┘                      │  
-       │                             ▼  
-       │                      ┌─────────────┐  
-      USB                     │ ┌─────────┐ │  
-       │                      │ │ USB to  │ │  
-       ▼                      │ │ Serial  │ │  
-┌─────────────┐               │ └─────────┘ │            ┌─────────────┐
-│             │               │             │            │             │
-│   USB to    │    UART TX    │  ESP32-C3-  │    WiFi    │   Golioth   │
-│   Serial    │──────────────▶│  DevKitM-1  │◀ ─ ─ ─ ─ ─▶│    Cloud    │
-│             │               │             │            │             │
-└─────────────┘               └─────────────┘            └─────────────┘
-```
+![hardware-setup](images/hardware-setup.png)
 
 ## Firmware
 
