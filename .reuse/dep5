@@ -3,7 +3,7 @@ Upstream-Name: cgnd.dev
 Upstream-Contact: Common Ground Electronics <https://cgnd.dev>
 Source: https://github.com/cgnd/cgnd.dev
 
-Files: *.md *.png *.jpg *.jpeg *.ico
+Files: *.md *.png *.jpg *.jpeg *.webp *.ico
 Copyright: Common Ground Electronics <https://cgnd.dev>
 License: CC-BY-4.0
 

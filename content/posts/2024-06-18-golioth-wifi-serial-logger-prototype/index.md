@@ -13,7 +13,7 @@ disableComments: false
 typora-copy-images-to: ./images
 ---
 
-![golioth-wifi-serial-logger](images/golioth-wifi-serial-logger.png)
+![golioth-wifi-serial-logger](images/golioth-wifi-serial-logger.webp)
 
 In this post, I'll show how I built a cloud-connected WiFi serial logger proof-of-concept in a couple hours (and for less than $10) by leveraging [Zephyr](https://www.zephyrproject.org/) and [Golioth](https://golioth.io/).
 
