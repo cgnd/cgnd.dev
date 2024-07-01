@@ -20,6 +20,7 @@ def preview(
     context,
     fast_render=False,
     build_drafts=True,
+    build_future=True,
     # default bind address is 127.0.0.1, 0.0.0.0 enables preview from other
     # devices (e.g. mobile devices) on the same network.
     bind_addr="0.0.0.0",  # nosec
@@ -32,6 +33,7 @@ def preview(
             "server",
             "" if fast_render else "--disableFastRender",
             "--buildDrafts" if build_drafts else "",
+            "--buildFuture" if build_future else "",
             f'--bind="{bind_addr}"' if bind_addr else "",
             f'--baseURL="{base_url}"' if base_url else "",
             f'--port="{port}"' if port else "",
