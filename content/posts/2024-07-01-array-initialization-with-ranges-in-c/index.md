@@ -24,7 +24,7 @@ This post is part of a new series of short-form posts titled **[Today I learned]
 
 **[Today I learned](/series/today-i-learned/)** there is a [GNU C extension](https://gcc.gnu.org/onlinedocs/gcc/C-Extensions.html) for [designated initializers](https://gcc.gnu.org/onlinedocs/gcc/Designated-Inits.html) that makes it possible to initialize a *range* of elements in an array.
 
-![range-example](images/range-example.png)
+![range-example](images/range-example.webp)
 
 If you happen to be using GCC (or another compatible compiler that supports this GNU extension, like Clang), you can specify a *range* (`[first ... last]`) in the designated initializer list.
 
