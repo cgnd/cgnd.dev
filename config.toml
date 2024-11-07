@@ -7,7 +7,7 @@ title = "cgnd.dev"
 theme = "hugo-coder"
 languageCode = "en"
 defaultContentLanguage = "en"
-paginate = 20
+pagination.pagerSize = 20
 enableEmoji = true
 enableGitInfo = true
 
