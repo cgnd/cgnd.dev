@@ -5,6 +5,9 @@ authors:
 date: "2025-01-24"
 draft: false
 slug: intel-quartus-prime-lite-edition-via-remote-desktop
+images:
+- images/de0-cv.jpg
+description: Learn how to run Intel Quartus® Prime Lite Edition via Remote Desktop
 tags:
 - Intel
 - Quartus Prime
