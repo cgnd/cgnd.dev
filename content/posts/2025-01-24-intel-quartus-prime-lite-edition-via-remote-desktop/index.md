@@ -6,8 +6,8 @@ date: "2025-01-24"
 draft: false
 slug: intel-quartus-prime-lite-edition-via-remote-desktop
 images:
-- images/de0-cv.jpg
-description: Learn how to run Intel Quartus® Prime Lite Edition via Remote Desktop
+- images/quartus-remote-desktop.png
+description: Learn how to run Intel Quartus® Prime Lite Edition via Remote Desktop.
 tags:
 - Intel
 - Quartus Prime
@@ -18,11 +18,21 @@ disableComments: false
 typora-copy-images-to: ./images
 ---
 
-*Learn how to run Intel Quartus® Prime Lite Edition via Remote Desktop (Mac users rejoice!)*
+{{< notice info >}}
 
-![de0-cv](images/de0-cv.jpg)
+Make sure to check out the follow up article [How to run Intel Quartus® Prime Lite Edition via Parallels on a Mac with Apple Silicon (ARM64)](https://cgnd.dev/posts/intel-quartus-prime-lite-edition-via-parallels-mac-apple-silicon-arm64)
 
-I recently obtained a [Terasic DE0-CV](https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=163&No=921) FPGA dev board and needed to install/configure licensing for the accompanying [Intel® Quartus® Prime Lite Edition](https://www.intel.com/content/www/us/en/collections/products/fpga/software/downloads.html?s=Newest&edition=lite&f:guidetmD240C377263B4C70A4EA0E452D0182CA=%5BIntel%C2%AE%20Quartus%C2%AE%20Prime%20Design%20Software%3BIntel%C2%AE%20Quartus%C2%AE%20Prime%20Lite%20Edition%5D) FPGA design software. The Quartus Prime software [requires](https://www.intel.com/content/www/us/en/support/programmable/support-resources/design-software/os-support.html) an x86-64 machine running either Windows or Linux, but my laptop is an ARM-based Macbook Pro running macOS which is not supported.
+{{< /notice >}}
+
+*Learn how to run Intel Quartus® Prime Lite Edition via Remote Desktop.*
+
+![quartus-remote-desktop](images/quartus-remote-desktop.png)
+
+I recently obtained a [Terasic DE0-CV](https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=163&No=921) FPGA dev board and needed to install/configure licensing for the accompanying [Intel® Quartus® Prime Lite Edition](https://www.intel.com/content/www/us/en/collections/products/fpga/software/downloads.html?s=Newest&edition=lite&f:guidetmD240C377263B4C70A4EA0E452D0182CA=%5BIntel%C2%AE%20Quartus%C2%AE%20Prime%20Design%20Software%3BIntel%C2%AE%20Quartus%C2%AE%20Prime%20Lite%20Edition%5D) FPGA design software.
+
+![de0-cv](images/de0-cv.png)
+
+The Quartus Prime software [requires](https://www.intel.com/content/www/us/en/support/programmable/support-resources/design-software/os-support.html) an x86-64 machine running either Windows or Linux, but my laptop is an ARM-based Macbook Pro running macOS which is not supported.
 
 However, I *do* have an old Intel-based Mac Mini that [runs Windows 10 via Bootcamp](https://support.apple.com/en-us/102622), so I ended up installing Quartus Prime on that machine. Not wanting to be tied to a desktop, I figured I'd just [Remote Desktop](https://apps.apple.com/us/app/windows-app/id1295203466?mt=12) into Windows from my MacBook Pro and run the tools remotely. *What could go wrong?*
 
@@ -42,9 +52,7 @@ I couldn't find a guide online that covered how to set this up from start-to-fin
 
 ## Download Quartus® Prime Lite Edition
 
-If you haven't already, download and install [Intel® Quartus® Prime Lite Edition](https://fpgasoftware.intel.com/?edition=lite). In this guide I installed [Version 23.1.1 for Windows](https://www.intel.com/content/www/us/en/software-kit/825278/intel-quartus-prime-lite-edition-design-software-version-23-1-1-for-windows.html).
-
-You'll need to [sign in](https://www.intel.com/apps/intel/services/unifiedlogin.html) or [register](https://www.intel.com/content/www/us/en/secure/forms/developer/premier-registration.html) for an Intel account if you haven't already.
+If you haven't already, download and install [Intel® Quartus® Prime Lite Edition](https://fpgasoftware.intel.com/?edition=lite). In this guide I installed [Version 23.1.1 for Windows](https://www.intel.com/content/www/us/en/software-kit/825278/intel-quartus-prime-lite-edition-design-software-version-23-1-1-for-windows.html). You'll need to [sign in](https://www.intel.com/apps/intel/services/unifiedlogin.html) or [register](https://www.intel.com/content/www/us/en/secure/forms/developer/premier-registration.html) for an Intel account if you haven't already.
 
 ## Request a license
 
