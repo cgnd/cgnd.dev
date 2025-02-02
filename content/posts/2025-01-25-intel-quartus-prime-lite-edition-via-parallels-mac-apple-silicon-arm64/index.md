@@ -1,22 +1,22 @@
 ---
-title: How to run Intel Quartus® Prime Lite Edition via Parallels on a Mac with Apple Silicon (ARM64)
+title: "How to run Intel Quartus® Prime Lite Edition via Parallels on a Mac with Apple Silicon (ARM64)"
 authors:
-- Chris Wilson
+- "Chris Wilson"
 date: "2025-01-25"
 draft: false
 slug: intel-quartus-prime-lite-edition-via-parallels-mac-apple-silicon-arm64
 images:
 - images/quartus-parallels.png
-description: Learn how to run Intel Quartus® Prime Lite Edition via Parallels on a Mac with Apple Silicon (ARM64).
+description: "Learn how to run Intel Quartus® Prime Lite Edition via Parallels on a Mac with Apple Silicon (ARM64)."
 tags:
-- Intel
-- Quartus Prime
-- Questa
-- FPGA
-- Parallels
-- Apple Silicon
-- ARM64
-- Mac
+- "Intel"
+- "Quartus Prime"
+- "Questa"
+- "FPGA"
+- "Parallels"
+- "Apple Silicon"
+- "ARM64"
+- "Mac"
 disableComments: false
 typora-copy-images-to: ./images
 ---

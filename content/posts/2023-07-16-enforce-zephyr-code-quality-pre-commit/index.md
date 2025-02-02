@@ -1,15 +1,18 @@
 ---
-title: Enforce Zephyr code quality with pre-commit
+title: "Enforce Zephyr code quality with pre-commit"
 authors:
-- Chris Wilson
+- "Chris Wilson"
 date: "2023-07-16"
 draft: false
 slug: enforce-zephyr-code-quality-pre-commit
+images:
+- images/kites_on_hooks.png
+description: "Learn how embedded firmware developers can leverage pre-commit to automate and enforce code quality checks in their Zephyr RTOS embedded firmware projects."
 tags:
-- Zephyr
-- pre-commit
-- code quality
-- code style
+- "Zephyr"
+- "pre-commit"
+- "code quality"
+- "code style"
 disableComments: false
 typora-copy-images-to: ./images
 ---

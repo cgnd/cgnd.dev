@@ -1,15 +1,16 @@
 ---
-title: 2024 mid-year retrospective
+title: "2024 mid-year retrospective"
 authors:
-- Chris Wilson
+- "Chris Wilson"
 date: "2024-06-26"
 draft: false
 slug: 2024-mid-year-retrospective
+description: "2024 mid-year retrospective on my first year running an embedded systems consulting business."
 tags:
-- consulting
-- retrospective
-- Common Ground Electronics
-- Golioth
+- "consulting"
+- "retrospective"
+- "Common Ground Electronics"
+- "Golioth"
 disableComments: false
 typora-copy-images-to: ./images
 ---

@@ -1,19 +1,19 @@
 ---
-title: How to run Intel Quartus® Prime Lite Edition via Remote Desktop
+title: "How to run Intel Quartus® Prime Lite Edition via Remote Desktop"
 authors:
-- Chris Wilson
+- "Chris Wilson"
 date: "2025-01-24"
 draft: false
 slug: intel-quartus-prime-lite-edition-via-remote-desktop
 images:
 - images/quartus-remote-desktop.png
-description: Learn how to run Intel Quartus® Prime Lite Edition via Remote Desktop.
+description: "Learn how to run Intel Quartus® Prime Lite Edition via Remote Desktop."
 tags:
-- Intel
-- Quartus Prime
-- Questa
-- FPGA
-- Remote Desktop
+- "Intel"
+- "Quartus Prime"
+- "Questa"
+- "FPGA"
+- "Remote Desktop"
 disableComments: false
 typora-copy-images-to: ./images
 ---
