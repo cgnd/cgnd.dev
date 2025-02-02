@@ -1,17 +1,20 @@
 ---
-title: Array initialization with ranges in C
+title: "Array initialization with ranges in C"
 authors:
-- Chris Wilson
+- "Chris Wilson"
 date: "2024-07-01"
 draft: false
 slug: array-initialization-with-ranges-in-c
+images:
+- images/range-example.webp
+description: "Today I learned there is a GNU C extension for designated initializers that makes it possible to initialize a range of elements in an array."
 series:
-- Today I learned
+- "Today I learned"
 tags:
-- TIL
-- C
-- GNU C extensions
-- GCC
+- "TIL"
+- "C"
+- "GNU C extensions"
+- "GCC"
 disableComments: false
 typora-copy-images-to: ./images
 ---

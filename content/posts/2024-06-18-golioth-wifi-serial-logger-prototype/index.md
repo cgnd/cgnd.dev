@@ -1,14 +1,17 @@
 ---
-title: Prototyping a WiFi serial logger with Golioth
+title: "Prototyping a WiFi serial logger with Golioth"
 authors:
-- Chris Wilson
+- "Chris Wilson"
 date: "2024-06-18"
 draft: false
 slug: golioth-wifi-serial-logger-prototype
+images:
+- images/golioth-wifi-serial-logger.webp
+description: "How I built a cloud-connected WiFi serial logger proof-of-concept in a couple hours (and for less than $10) by leveraging Zephyr and Golioth."
 tags:
-- Zephyr
-- Golioth
-- prototype
+- "Zephyr"
+- "Golioth"
+- "prototype"
 disableComments: false
 typora-copy-images-to: ./images
 ---

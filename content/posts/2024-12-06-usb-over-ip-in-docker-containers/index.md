@@ -1,17 +1,20 @@
 ---
-title: USB-over-IP in Docker Containers
+title: "USB-over-IP in Docker Containers"
 authors:
-- Chris Wilson
+- "Chris Wilson"
 date: "2024-12-06"
 draft: false
 slug: usb-over-ip-in-docker-containers
+images:
+- images/usb-docker.webp
+description: "Today I learned Docker recently introduced USB/IP protocol support in Docker Desktop version 4.35.0."
 series:
-- Today I learned
+- "Today I learned"
 tags:
-- TIL
-- Docker
-- VirtualHere
-- USB/IP
+- "TIL"
+- "Docker"
+- "VirtualHere"
+- "USB/IP"
 disableComments: false
 typora-copy-images-to: ./images
 ---

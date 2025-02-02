@@ -1,12 +1,15 @@
 ---
-title: Test Draft Post
+title: "Test Draft Post"
 authors:
-- Chris Wilson
+- "Chris Wilson"
 date: "1970-01-01"
 draft: true
 slug: test-draft-post
+images:
+- images/test.jpeg
+description: "This is a test draft post."
 tags:
-- testing
+- "testing"
 disableComments: false
 typora-copy-images-to: ./images
 ---
