@@ -1,0 +1,16 @@
+{{ $src := .Destination | safeURL }}
+{{ $alt := .PlainText | safeHTML }}
+{{ $title := .Title | safeHTML}}
+{{ if .Title }}
+<figure>
+  <a href="{{ $src }}" title="{{ $title }}">
+    <img src="{{ $src }}" alt="{{ $alt }}" title="{{ $title }}" class="center" />
+  </a>
+  <figcaption>{{ $title }}</figcaption>
+</figure>
+
+{{ else }}
+<a href="{{ $src }}">
+  <img src="{{ $src }}" alt="{{ $alt }}" class="center" />
+</a>
+{{ end }}
