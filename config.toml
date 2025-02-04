@@ -75,7 +75,7 @@ author = "authors"
 
 [[params.social]]
 name = "Github"
-icon = "fa fa-github fa-2x"
+icon = "fa-brands fa-github fa-2x"
 weight = 1
 url = "https://github.com/cgnd"
 
@@ -101,7 +101,7 @@ url = "https://x.com/cgndelectronics"
 
 [[params.social]]
 name = "LinkedIn"
-icon = "fa fa-linkedin fa-2x"
+icon = "fa-brands fa-linkedin fa-2x"
 weight = 5
 url = "https://www.linkedin.com/company/common-ground-electronics/"
 
