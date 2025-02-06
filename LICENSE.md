@@ -17,9 +17,9 @@ When you contribute to this repository you are doing so under the above licenses
 
  [![REUSE status](https://api.reuse.software/badge/github.com/cgnd/cgnd.dev)](https://api.reuse.software/info/github.com/cgnd/cgnd.dev)
 
-This repository is compliant with version 3.0 of the [REUSE Specification](https://reuse.software/spec/).
+This repository is compliant with version 3.3 of the [REUSE Specification](https://reuse.software/spec/).
 
-License files are contained in the [LICENSES/](LICENSES/) directory and additional copyright & license information can be found in [.reuse/dep5](.reuse/dep5).
+License files are contained in the [LICENSES/](LICENSES/) directory and additional copyright & license information can be found in [REUSE.toml](REUSE.toml).
 
 Run the following commands for detailed copyright & license information on individual files:
 

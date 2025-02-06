@@ -19,6 +19,6 @@ repos:
   - id: detect-private-key
   - id: end-of-file-fixer
 - repo: https://github.com/fsfe/reuse-tool
-  rev: v3.0.1
+  rev: v5.0.2
   hooks:
   - id: reuse
