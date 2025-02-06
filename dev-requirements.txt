@@ -1,5 +1,6 @@
-# SPDX-FileCopyrightText: 2022 Chris Wilson <christopher.david.wilson@gmail.com>
+# SPDX-FileCopyrightText: Common Ground Electronics <https://cgnd.dev>
 #
-# SPDX-License-Identifier: MIT
+# SPDX-License-Identifier: MIT OR Apache-2.0
 
 invoke
+reuse

@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: Common Ground Electronics <https://cgnd.dev>
+#
+# SPDX-License-Identifier: MIT OR Apache-2.0
+
 version = 1
 SPDX-PackageName = "cgnd.dev"
 SPDX-PackageSupplier = "Common Ground Electronics <https://cgnd.dev>"
