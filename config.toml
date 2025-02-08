@@ -42,7 +42,8 @@ customCSS = []
 customSCSS = []
 # Custom JS
 customJS = []
-mask_icon_color = "black"
+# Apple Mobile Web App Title
+AppTitle = "CGND"
 
 # If you want to implement a Content-Security-Policy, add this section
 # [params.csp]
