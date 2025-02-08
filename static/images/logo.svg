@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200.0 1200.0" width="1200.0px" height="1200.0px">
-  <g transform="translate(162.5 100.0) translate(-62.5 -0.0)" fill="none" stroke="black">
-    <polyline stroke-width="25.0" points="500.0 12.5 500.0 487.5 925.0 487.5 925.0 587.5 75.0 587.5 75.0 687.5 825.0 687.5 825.0 787.5 175.0 787.5 175.0 887.5 725.0 887.5 725.0 987.5 275.0 987.5" stroke-linecap="round" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000px" height="1000px">
+  <g transform="translate(106.25 50.0) translate(-56.25 -0.0)" fill="none" stroke="#212121">
+    <polyline stroke-width="27.0" points="450.0 13.5 450.0 436.5 830.25 436.5 830.25 526.5 69.75 526.5 69.75 616.5 740.25 616.5 740.25 706.5 159.75 706.5 159.75 796.5 650.25 796.5 650.25 886.5 249.75000000000003 886.5" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
 </svg>
