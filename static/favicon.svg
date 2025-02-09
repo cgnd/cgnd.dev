@@ -1,6 +1,16 @@
 <?xml version="1.0" ?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000px" height="1000px">
-  <g transform="translate(62.5 0.0) translate(-62.5 -0.0)" fill="none" stroke="black">
+  <style>
+    polyline {
+      stroke: black;
+    }
+    @media (prefers-color-scheme: dark) {
+      polyline {
+        stroke: white;
+      }
+    }
+  </style>
+  <g transform="translate(62.5 0.0) translate(-62.5 -0.0)" fill="none">
     <polyline stroke-width="30.0" points="500.0 15.0 500.0 485.0 922.5 485.0 922.5 585.0 77.5 585.0 77.5 684.9999999999999 822.5 684.9999999999999 822.5 785.0 177.5 785.0 177.5 885.0 722.5 885.0 722.5 985.0 277.5 985.0" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
 </svg>
