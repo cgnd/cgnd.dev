@@ -42,8 +42,6 @@ customCSS = []
 customSCSS = []
 # Custom JS
 customJS = []
-# Apple Mobile Web App Title
-AppTitle = "CGND"
 
 # If you want to implement a Content-Security-Policy, add this section
 # [params.csp]
