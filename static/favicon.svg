@@ -1,16 +1,62 @@
-<?xml version="1.0" ?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000px" height="1000px">
-  <style>
-    polyline {
-      stroke: black;
-    }
-    @media (prefers-color-scheme: dark) {
-      polyline {
-        stroke: white;
-      }
-    }
-  </style>
-  <g transform="translate(62.5 0.0) translate(-62.5 -0.0)" fill="none">
-    <polyline stroke-width="30.0" points="500.0 15.0 500.0 485.0 922.5 485.0 922.5 585.0 77.5 585.0 77.5 684.9999999999999 822.5 684.9999999999999 822.5 785.0 177.5 785.0 177.5 885.0 722.5 885.0 722.5 985.0 277.5 985.0" stroke-linecap="round" stroke-linejoin="round"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg1"
+   inkscape:export-filename="favicon.svg"
+   inkscape:export-xdpi="18"
+   inkscape:export-ydpi="18"
+   inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
+   sodipodi:docname="blue_512x512.svg"
+   inkscape:dataloss="true"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="0.37723796"
+     inkscape:cx="140.49488"
+     inkscape:cy="98.081329"
+     inkscape:window-width="1496"
+     inkscape:window-height="905"
+     inkscape:window-x="0"
+     inkscape:window-y="34"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="512"
+       height="512"
+       id="page2"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:30;stroke-linejoin:round"
+       id="rect1"
+       width="512"
+       height="512"
+       x="0"
+       y="0" />
   </g>
 </svg>
