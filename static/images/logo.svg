@@ -1,6 +1,4 @@
 <?xml version="1.0" ?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000px" height="1000px">
-  <g transform="translate(106.25 50.0) translate(-56.25 -0.0)" fill="none" stroke="#212121">
-    <polyline stroke-width="27.0" points="450.0 13.5 450.0 436.5 830.25 436.5 830.25 526.5 69.75 526.5 69.75 616.5 740.25 616.5 740.25 706.5 159.75 706.5 159.75 796.5 650.25 796.5 650.25 886.5 249.75000000000003 886.5" stroke-linecap="round" stroke-linejoin="round"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024px" height="1024px">
+  <polyline stroke="#212121" stroke-width="64.0" transform="translate(64.0 64.0) translate(448.0 448.0)" points="0 -416.0 0 -64.0 416.0 -64.0 416.0 32.0 -416.0 32.0 -416.0 128.0 288.0 128.0 288.0 224.0 -288.0 224.0 -288.0 320.0 160.0 320.0 160.0 416.0 -160.0 416.0" stroke-linecap="square" stroke-linejoin="miter" fill="none"/>
 </svg>

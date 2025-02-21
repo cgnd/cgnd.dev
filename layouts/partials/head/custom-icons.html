@@ -1,5 +1,18 @@
-<link rel="icon" type="image/svg+xml" href="{{ .Site.Params.faviconSVG | default "/favicon.svg" | relURL }}">
-<link rel="icon" href="{{ .Site.Params.faviconICO | default "/favicon.ico" | relURL }}" />
-<link rel="apple-touch-icon" href="{{ .Site.Params.touchicon | default "/apple-touch-icon.png" | relURL }}">
-<meta name="apple-mobile-web-app-title" content="{{ .Site.Params.AppTitle | default "AppTitle" }}">
-<link rel="manifest" href="{{ .Site.Params.manifest | default "/site.webmanifest" | relURL }}">
+<!--
+If the following line is uncommented, Chrome on iOS will load the linked
+apple-touch-icon as the favicon instead of favicon.ico. For some reason, when
+Chrome downscales the image to use as a favicon it looks corrupted... Luckily,
+Safari will look for /apple-touch-icon.png if the link element is missing, so
+the following line is actually not necessary for the touch icon to work.
+-->
+<!-- <link rel="apple-touch-icon" href="{{ .Site.Params.touchicon | default "/apple-touch-icon.png" | relURL }}"> -->
+
+<!--
+If sizes="32x32" is omitted from the *.ico link or if sizes is set to
+sizes="16x16 32x32", Chrome will load favicon.ico instead of the SVG favicon
+even though the SVG is the last element listed... why favicon handling across
+browsers is such a dumpster fire is beyond me.
+-->
+<link rel="icon" href="{{ .Site.Params.faviconICO | default "/favicon.ico" | relURL }}" sizes="32x32">
+<link rel="icon" href="{{ .Site.Params.faviconSVG | default "/favicon.svg" | relURL }}" type="image/svg+xml">
+<link rel="manifest" href="{{ .Site.Params.manifest | default "/manifest.json" | relURL }}">
