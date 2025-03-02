@@ -42,6 +42,8 @@ customCSS = []
 customSCSS = []
 # Custom JS
 customJS = []
+favicon_32 = "/favicon-32x32.png?v=5.0.0"
+faviconSVG = "/favicon.svg?v=5.0.0"
 
 # If you want to implement a Content-Security-Policy, add this section
 # [params.csp]
