@@ -25,7 +25,7 @@ SPDX-FileCopyrightText = "Common Ground Electronics <https://cgnd.dev>"
 SPDX-License-Identifier = "CC-BY-4.0"
 
 [[annotations]]
-path = [".vscode/settings.json", ".vscode/settings.default.json"]
+path = [".vscode/settings.json", ".vscode/settings.default.json", "docs/CNAME"]
 precedence = "aggregate"
 SPDX-FileCopyrightText = "Common Ground Electronics <https://cgnd.dev>"
 SPDX-License-Identifier = "MIT or Apache-2.0"
