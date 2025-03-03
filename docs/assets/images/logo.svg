@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024px" height="1024px">
+  <g transform="translate(512.0 512.0)">
+    <polygon stroke="#212121" stroke-width="0" points="-96.0 -64.0 -96.0 -448.0 96.0 -448.0 96.0 -64.0 32.0 -64.0 32.0 -384.0 -32.0 -384.0 -32.0 -64.0" stroke-linejoin="miter" fill="#212121"/>
+    <polygon stroke="#212121" stroke-width="0" points="-448.0 128.0 -448.0 0.0 448.0 0.0 448.0 128.0 384.0 128.0 384.0 64.0 -384.0 64.0 -384.0 128.0" stroke-linejoin="miter" fill="#212121"/>
+    <polygon stroke="#212121" stroke-width="0" points="-320.0 256.0 -320.0 128.0 320.0 128.0 320.0 256.0 256.0 256.0 256.0 192.0 -256.0 192.0 -256.0 256.0" stroke-linejoin="miter" fill="#212121"/>
+    <polygon stroke="#212121" stroke-width="0" points="-192.0 384.0 -192.0 256.0 192.0 256.0 192.0 384.0 128.0 384.0 128.0 320.0 -128.0 320.0 -128.0 384.0" stroke-linejoin="miter" fill="#212121"/>
+    <polygon stroke="#212121" stroke-width="0" points="-64.0 384.0 64.0 384.0 64.0 448.0 -64.0 448.0" stroke-linejoin="miter" fill="#212121"/>
+  </g>
+</svg>

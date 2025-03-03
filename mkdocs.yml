@@ -1,0 +1,21 @@
+# SPDX-FileCopyrightText: Common Ground Electronics <https://cgnd.dev>
+#
+# SPDX-License-Identifier: MIT OR Apache-2.0
+
+site_name: Common Ground Electronics
+site_url: https://cgnd.dev
+theme:
+  name: material
+  palette:
+    primary: white
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/images/favicon-32x32.png
+  logo: assets/images/logo.svg
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.tracking
+extra_css:
+  - assets/stylesheets/extra.css
