@@ -20,7 +20,7 @@ typora-copy-images-to: ./images
 
 {{< notice info >}}
 
-Make sure to check out the follow up article [How to run Intel Quartus® Prime Lite Edition via Parallels on a Mac with Apple Silicon (ARM64)](https://cgnd.dev/posts/intel-quartus-prime-lite-edition-via-parallels-mac-apple-silicon-arm64)
+Make sure to check out the follow up article [How to run Intel Quartus® Prime Lite Edition via Parallels on a Mac with Apple Silicon (ARM64)](https://cgnd.dev/posts/intel-quartus-prime-lite-edition-via-parallels-mac-apple-silicon-arm64/)
 
 {{< /notice >}}
 
