@@ -6,7 +6,7 @@ date: "2023-07-16"
 draft: false
 slug: enforce-zephyr-code-quality-pre-commit
 images:
-- images/kites_on_hooks.png
+- images/zephyr_kite.png
 description: "Learn how embedded firmware developers can leverage pre-commit to automate and enforce code quality checks in their Zephyr RTOS embedded firmware projects."
 tags:
 - "Zephyr"
@@ -17,7 +17,7 @@ disableComments: false
 typora-copy-images-to: ./images
 ---
 
-![kites_on_hooks](images/kites_on_hooks.png)
+![zephyr_kite](images/zephyr_kite.png)
 
 In this article, I'll describe how embedded firmware developers can leverage [`pre-commit`](https://pre-commit.com/) to automate and enforce code quality checks in their Zephyr RTOS embedded firmware projects.
 
