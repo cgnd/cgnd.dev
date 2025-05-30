@@ -8,7 +8,19 @@ SPDX-PackageSupplier = "Common Ground Electronics <https://cgnd.dev>"
 SPDX-PackageDownloadLocation = "https://github.com/cgnd/cgnd.dev"
 
 [[annotations]]
-path = ["**.md", "**.png", "**.jpg", "**.jpeg", "**.webp", "**.ico", "**.drawio", "**.monopic", "**.svg", "**.html"]
+path = [
+    "**.md",
+    "**.png",
+    "**.jpg",
+    "**.jpeg",
+    "**.webp",
+    "**.ico",
+    "**.drawio",
+    "**.monopic",
+    "**.svg",
+    "**.html",
+    "**.pdf",
+]
 precedence = "aggregate"
 SPDX-FileCopyrightText = "Common Ground Electronics <https://cgnd.dev>"
 SPDX-License-Identifier = "CC-BY-4.0"
