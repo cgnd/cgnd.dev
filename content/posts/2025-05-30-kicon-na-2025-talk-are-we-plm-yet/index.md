@@ -28,7 +28,7 @@ https://pretalx.kicad.org/kicon-na-2025/talk/H3VMQY/
 
 ## Talk Slides
 
- [KiCon 2025 North America - KiCad PLM Talk - v1.1.pdf](<KiCon 2025 (North America) - KiCad PLM Talk - v1.1.pdf>)
+ [KiCon 2025 North America - KiCad PLM Talk - v1.2.pdf](<KiCon 2025 (North America) - KiCad PLM Talk - v1.2.pdf>)
 
 ## Conference Livestream
 
