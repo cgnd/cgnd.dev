@@ -29,8 +29,14 @@ https://www.crowdsupply.com/teardown/portland-2025/long-talk/are-we-plm-yet-a-be
 
 Make sure to check out the additional slides at the end of the deck for topics that I didn't have time to cover during the talk.
 
-[Teardown 2025 - KiCad PLM Talk - v1.0.1.pdf](<Teardown 2025 - KiCad PLM Talk - v1.0.1.pdf>)
+[Teardown 2025 - KiCad PLM Talk - v1.0.2.pdf](<Teardown 2025 - KiCad PLM Talk - v1.0.2.pdf>)
 
 ## Talk Video
 
 I'll update this page with a link to the video recording once it's uploaded to YouTube by Crowd Supply.
+
+## Minimal KiCad+Aligni Example Project
+
+I put together a minimal example project demonstrating the KiCad database libraries integration. Check out the [README](https://github.com/cgnd/aligni-example-kicad-project/blob/main/README.md) for instructions on how to clone and try out this project on your own.
+
+https://github.com/cgnd/aligni-example-kicad-project
