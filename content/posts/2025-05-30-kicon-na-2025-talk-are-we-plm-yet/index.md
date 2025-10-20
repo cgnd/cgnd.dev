@@ -8,6 +8,8 @@ slug: kicon-na-2025-talk-are-we-plm-yet
 images:
 - images/kicon-na-2025-talk-are-we-plm-yet.png
 description: "KiCon 2025 (North America) Talk: Are we PLM yet? A beginners introduction to product lifecycle management for KiCad."
+series:
+- "Speaking"
 tags:
 - "Teardown"
 - "Conferences"
@@ -17,9 +19,13 @@ disableComments: false
 typora-copy-images-to: ./images
 ---
 
-{{< youtube id=h8s6T9pnWlY start=19668 >}}
+{{< notice note >}}
 
-## I spoke at KiCon this year!
+I gave an updated version of this talk at Teardown 2025. Make sure to check out the updated slides at [Teardown 2025 Talk: Are we PLM yet?](https://cgnd.dev/posts/teardown-2025-talk-are-we-plm-yet/)
+
+{{< /notice >}}
+
+{{< youtube id=h8s6T9pnWlY start=19730 >}}
 
 Have you ever wondered how product teams manage BOMs, revisions, releases, and specifications over the lifecycle of a hardware product?
 
