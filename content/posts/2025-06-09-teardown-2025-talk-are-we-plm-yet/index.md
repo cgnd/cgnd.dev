@@ -8,6 +8,8 @@ slug: teardown-2025-talk-are-we-plm-yet
 images:
 - images/teardown-2025-talk-are-we-plm-yet.png
 description: "Teardown 2025 Talk: Are we PLM yet? A beginners introduction to product lifecycle management for KiCad."
+series:
+- "Speaking"
 tags:
 - "Teardown"
 - "Conferences"
@@ -17,7 +19,7 @@ disableComments: false
 typora-copy-images-to: ./images
 ---
 
-## I will be speaking at Teardown this year!
+{{< youtube id=Eh_9FcHEqmQ >}}
 
 Have you ever wondered how product teams manage BOMs, revisions, releases, and specifications over the lifecycle of a hardware product?
 
@@ -30,10 +32,6 @@ https://www.crowdsupply.com/teardown/portland-2025/long-talk/are-we-plm-yet-a-be
 Make sure to check out the additional slides at the end of the deck for topics that I didn't have time to cover during the talk.
 
 [Teardown 2025 - KiCad PLM Talk - v1.0.2.pdf](<Teardown 2025 - KiCad PLM Talk - v1.0.2.pdf>)
-
-## Talk Video
-
-I'll update this page with a link to the video recording once it's uploaded to YouTube by Crowd Supply.
 
 ## Minimal KiCad+Aligni Example Project
 
