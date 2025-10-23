@@ -19,7 +19,7 @@ disableComments: false
 typora-copy-images-to: ./images
 ---
 
-{{< youtube id=Eh_9FcHEqmQ >}}
+{{< youtube id=Hb8QpukQxys >}}
 
 Have you ever wondered how product teams manage BOMs, revisions, releases, and specifications over the lifecycle of a hardware product?
 
