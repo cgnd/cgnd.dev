@@ -25,7 +25,7 @@ I gave an updated version of this talk at Teardown 2025. Make sure to check out 
 
 {{< /notice >}}
 
-{{< youtube id=h8s6T9pnWlY start=19730 >}}
+{{< youtube id=Gx_-i-3BxoM >}}
 
 Have you ever wondered how product teams manage BOMs, revisions, releases, and specifications over the lifecycle of a hardware product?
 
